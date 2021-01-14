@@ -2,9 +2,18 @@ function landingPage () {
     let element = document.createElement("div");
     element.innerHTML = 
     `
-    <h1>BurgerShack</h1>
-    <img src="../img/pexels-valeria-boltneva-1639565.jpg" alt="burger image">
-    <p>BurgerShack, juiciest burgers you'll ever eat!</p>
+        <nav>
+        <ul>
+            <li>Home</li>
+            <li>Menu</li>
+            <li>Contact</li>
+        </ul>
+    </nav>
+    
+    <main>
+        <h2>BurgerShack</h2>
+        <h3>The best burgers in town</h3>
+    </main>
     `
     return element
 }

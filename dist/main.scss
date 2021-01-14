@@ -1,0 +1,49 @@
+html{
+    font-size: 62.5%;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+#content {
+    background-image: url("../img/pexels-valeria-boltneva-1639565.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+
+nav {
+    background-color: black;
+    color: cornsilk;
+    font-size: 3rem;
+    padding: 1rem 0;
+}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+
+main {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h2, h3 {
+    color: white;
+}
+
+h2 {
+   font-size: 5rem;
+}
+
+h3 {
+    font-size: 2.5rem;
+}
