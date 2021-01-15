@@ -8,9 +8,9 @@ function contactPage () {
 
         <h2>Contact Us</h2>
 
-        <p>Phone No: 07912345678<p/>
+        <p>Phone No: <a href="tel:07912345678">07912345678</a><p/>
 
-        <p>Email: lorem@ipsum.com</p>
+        <p>Email: <a href="mailto:lorem@ipsum.com">lorem@ipsum.com</a></p>
 
         <p>Address:<br>
             34 Lorem St,<br>
