@@ -3,7 +3,26 @@ function menuPage () {
     element.innerHTML = 
     `
     <main id="main">
-        <h2>Menu</h2>
+    <div class="menucontent">
+    <ul>
+        <li>
+            <h4>Smash Burger</h4>
+            <p>Lorem ipsum dolor sit amet consectetur</p>
+        </li>
+        <li>
+            <h4>Cheeseburger</h4>
+            <p>Lorem ipsum dolor sit amet consectetur</p>
+        </li>
+        <li>
+            <h4>Double Cheeseburger</h4>
+            <p>Lorem ipsum dolor sit amet consectetur</p>
+        </li>
+        <li>
+            <h4>Fat Stack Burger</h4>
+            <p>Lorem ipsum dolor sit amet consectetur</p>
+        </li>
+    </ul>
+</div>
     </main>
     `
     return element

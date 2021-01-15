@@ -26,12 +26,3 @@ content.addEventListener("click",(e) => {
         content.append(menuPage());
     } 
  });
- 
-
-
-/*
-else if(e.target.className === "menu" && e.target.id === "content"){
-         main.innerHTML = "";
-         content.append(menuPage());
-     } 
-*/

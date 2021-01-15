@@ -3,8 +3,10 @@ function landingPage () {
     element.innerHTML = 
     `
     <main id="main">
-        <h2>BurgerShtack</h2>
+    <div class=landing>
+        <h2>BurgerStack</h2>
         <h3>The best burgers in town</h3>
+    </div>
     </main>
     `
     return element
