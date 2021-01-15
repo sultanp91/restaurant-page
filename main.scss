@@ -18,32 +18,36 @@ nav {
     background-color: black;
     color: cornsilk;
     font-size: 3rem;
-    padding: 1rem 0;
+    padding: 1.5rem 0;
 }
 
 ul{
     display: flex;
     justify-content: space-around;
     list-style: none;
+    li:hover{
+        cursor: pointer;
+    }
 }
 
 
 main {
-    height: 80vh;
+    height: 90vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
 }
 
 h2, h3 {
     color: white;
+    margin-left: 15%;
 }
 
 h2 {
-   font-size: 5rem;
+   font-size: 7rem;
 }
 
 h3 {
-    font-size: 2.5rem;
+    font-size: 4rem;
 }
