@@ -19,7 +19,7 @@ nav {
   background-color: black;
   color: cornsilk;
   font-size: 3rem;
-  padding: 1rem 0;
+  padding: 1.5rem 0;
 }
 
 ul {
@@ -31,8 +31,12 @@ ul {
   list-style: none;
 }
 
+ul li:hover {
+  cursor: pointer;
+}
+
 main {
-  height: 80vh;
+  height: 90vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -43,20 +47,21 @@ main {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
 }
 
 h2, h3 {
   color: white;
+  margin-left: 15%;
 }
 
 h2 {
-  font-size: 5rem;
+  font-size: 7rem;
 }
 
 h3 {
-  font-size: 2.5rem;
+  font-size: 4rem;
 }
 /*# sourceMappingURL=main.css.map */
