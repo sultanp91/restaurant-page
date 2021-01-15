@@ -22,7 +22,7 @@ nav {
   padding: 1.5rem 0;
 }
 
-ul {
+nav ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -31,7 +31,7 @@ ul {
   list-style: none;
 }
 
-ul li:hover {
+nav ul li:hover {
   cursor: pointer;
 }
 
@@ -52,16 +52,60 @@ main {
           align-items: flex-start;
 }
 
-h2, h3 {
-  color: white;
-  margin-left: 15%;
+.landing {
+  margin-left: 10%;
 }
 
-h2 {
+.landing h2, .landing h3 {
+  color: white;
+}
+
+.landing h2 {
   font-size: 7rem;
 }
 
-h3 {
+.landing h3 {
   font-size: 4rem;
+}
+
+.menucontent {
+  margin-left: 10%;
+  border: cornsilk 3px solid;
+  border-radius: 1.5rem;
+  padding: 4rem 3rem;
+}
+
+.menucontent ul {
+  list-style: none;
+}
+
+.menucontent ul li {
+  padding: 1.5rem 0;
+}
+
+.menucontent h4 {
+  font-size: 4rem;
+}
+
+.menucontent p {
+  font-size: 2rem;
+}
+
+.contactpage {
+  margin-left: 15%;
+  border: cornsilk 3px solid;
+  border-radius: 1.5rem;
+  padding: 4rem 3rem;
+}
+
+.contactpage h2 {
+  font-size: 5rem;
+  padding: 1rem 0;
+}
+
+.contactpage p {
+  font-size: 2.5rem;
+  padding: 1rem 0;
+  line-height: 1.3;
 }
 /*# sourceMappingURL=main.css.map */
